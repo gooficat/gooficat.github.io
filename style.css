@@ -44,7 +44,6 @@ body {
 image {
   padding: 20px;
   max-width: 100%;
-  object-fit: contain;
 }
 
 /* Add a card effect for articles */
