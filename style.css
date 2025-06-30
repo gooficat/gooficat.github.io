@@ -43,6 +43,7 @@ body {
 
 image {
   padding: 20px;
+  width: 100%;
 }
 
 /* Add a card effect for articles */
