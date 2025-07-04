@@ -69,6 +69,10 @@ image {
   margin-top: 20px;
 }
 
+ul {
+  list-style: none
+}
+
 a {
   color: white
 }
