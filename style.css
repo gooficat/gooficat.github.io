@@ -1,88 +1,76 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #222;
-  max-width: 1080px;
-  margin: auto;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-  background: #111;
-  color: white;
-  border-radius: 15px;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-image {
-  padding: 20px;
-  max-width: 100%;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: #555;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #111;
-  margin-top: 20px;
-}
-
-ul {
-  list-style: none
-}
-
-a {
-  color: #bbb
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
+    margin: 0;
     padding: 0;
-  }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: #aacccc;
+    color:antiquewhite
+}
+header h1 {
+    font-size: 40px;
+}
+nav {
+    overflow: hidden;
+    background-color: #555;
+    width: 100%;
+    position: absolute top;
+}
+nav a {
+    display: inline-block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:burlywood;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+main section h3 {
+    padding-bottom: 20px;
+}
+#leftcolumn {
+    flex: 30%;
+    background-color: azure;
+    padding: 20px;
+}
+
+#content {
+    flex: 70%;
+    background-color: #ccdddd;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    #leftcolumn {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+a {
+    color:darkslategrey
 }
