@@ -17,6 +17,11 @@ main {
 #desktop {
     display: grid;
 }
+.windows-border {
+    border-top: 4px solid white;
+    border-right: 4px solid darkslategray;
+    border-bottom: 4px solid darkslategray;
+}
 
 #taskbar {
     height: 36px;
@@ -26,6 +31,7 @@ main {
     position: fixed;
     bottom: 0;
     z-index: 1;
+    border-bottom: 0;
 }
 
 #taskbar a {
@@ -58,7 +64,7 @@ a.desktop-icon:active {
 
 #start-menu {
     position: absolute;
-    bottom: 48px;
+    bottom: 44px;
     left: 0px;
     width: 200px;
     height: 320px;
@@ -68,11 +74,5 @@ a.desktop-icon:active {
 }
 
 #start-menu h3 {
-    padding-bottom: 8px;
-}
-
-.windows-border {
-    border-top: 4px solid white;
-    border-right: 4px solid darkslategray;
-    border-bottom: 4px solid darkslategray;
+    padding-bottom: 12px;
 }
