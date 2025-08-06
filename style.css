@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: darkblue;
+    background-color: rgb(0, 0, 51);
 }
 
 main {
@@ -17,21 +17,23 @@ main {
 #desktop {
     display: grid;
 }
-.windows-border {
+.chunky-border {
     border-top: 4px solid white;
     border-right: 4px solid darkslategray;
     border-bottom: 4px solid darkslategray;
+    box-sizing: border-box;
 }
 
 #taskbar {
     height: 36px;
-    padding: 4px 4px 0px 0px;
+    padding: 4px;
     width: 100%;
     background-color:darkgray;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     z-index: 1;
     border-bottom: 0;
+    box-sizing: content-box;
 }
 
 #taskbar a {
@@ -59,12 +61,16 @@ a.desktop-icon:active {
     position: absolute;
     top: 50px;
     left: 200px;
-    visibility: hidden;
+    visibility: visible;
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #start-menu {
     position: absolute;
-    bottom: 44px;
+    bottom: 48px;
     left: 0px;
     width: 200px;
     height: 320px;
@@ -75,4 +81,19 @@ a.desktop-icon:active {
 
 #start-menu h3 {
     padding-bottom: 12px;
+}
+
+#start-icon {
+
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    background-color: gray;
+}
+
+.topbar a {
+    text-decoration: none;
+    float: right;
 }
