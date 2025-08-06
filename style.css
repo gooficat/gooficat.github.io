@@ -25,7 +25,7 @@ main {
     background-color:darkgray;
     position: fixed;
     bottom: 0;
-    border-top: 4px white;
+    z-index: 1;
 }
 
 #taskbar a {
@@ -58,14 +58,21 @@ a.desktop-icon:active {
 
 #start-menu {
     position: absolute;
-    bottom: 36px;
+    bottom: 48px;
     left: 0px;
     width: 200px;
     height: 320px;
     background-color: #aaa;
     padding: 12px;
+    z-index: 9;
 }
 
 #start-menu h3 {
     padding-bottom: 8px;
+}
+
+.windows-border {
+    border-top: 4px solid white;
+    border-right: 4px solid darkslategray;
+    border-bottom: 4px solid darkslategray;
 }
