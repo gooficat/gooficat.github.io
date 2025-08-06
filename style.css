@@ -7,8 +7,6 @@
 header {
     padding: 40px;
     text-align: center;
-    background-color: #aacccc;
-    color:antiquewhite;
 
       border-top-left-radius: 255px 15px;
       border-top-right-radius: 15px 225px;
@@ -22,19 +20,16 @@ header h1 {
 }
 nav {
     overflow: hidden;
-    background-color: #555;
     width: 100%;
     position: absolute top;
 }
 nav a {
     display: inline-block;
-    color: antiquewhite;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
 }
 nav a:hover {
-    background-color:burlywood;
 }
 
 main {
@@ -50,13 +45,11 @@ main section h3 {
 }
 #leftcolumn {
     flex: 30%;
-    background-color: azure;
     padding: 20px;
 }
 
 #content {
     flex: 70%;
-    background-color: #ccdddd;
     padding: 20px;
 }
 
@@ -76,8 +69,6 @@ main section h3 {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #ccc;
 }
 a {
-    color:darkslategrey
 }
