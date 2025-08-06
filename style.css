@@ -15,7 +15,7 @@
 header {
     padding: 40px;
     text-align: center;
-    background-color: #444;
+    background-color: skyblue;
 
     
 }
@@ -45,6 +45,7 @@ nav a:hover {
 main {
     display: flex;
     flex-wrap: wrap;
+    background-color: #ccc;
 }
 ul {
     list-style-type: square;
@@ -52,7 +53,6 @@ ul {
 }
 main section h3 {
     padding-bottom: 20px;
-    background-color: #ccc;
 }
 #leftcolumn {
     flex: 30%;
@@ -83,4 +83,5 @@ footer {
     text-align: center;
 }
 a {
+    color: lightblue;
 }
