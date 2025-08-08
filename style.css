@@ -79,11 +79,16 @@ main {
 .window {
     width: auto;
     height: 300px;
-    background-color: #ddd;
+    background-color: #ccc;
     position: absolute;
     bottom: 150px;
     left: 200px;
 
+}
+
+.window h2 {
+    padding: 8px;
+    margin: 8px;
 }
 
 .window p {
@@ -134,5 +139,6 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
