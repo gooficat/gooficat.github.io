@@ -83,16 +83,13 @@ main {
     position: absolute;
     bottom: 150px;
     left: 200px;
-
 }
 
 .window h2 {
-    padding: 8px;
     margin: 8px;
 }
 
 .window p {
-    padding: 8px;
     margin: 8px;
 }
 
@@ -143,6 +140,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
