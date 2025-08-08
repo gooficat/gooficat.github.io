@@ -84,6 +84,7 @@ main {
     bottom: 150px;
     left: 200px;
     border: 1px solid #111;
+    overflow: hidden;
 }
 
 .window h2 {
@@ -94,8 +95,9 @@ main {
     margin: 8px;
 }
 
-.window ul {
-    padding: 12px;
+.window ul 
+    margin: 8px;
+    padding-left: 12px;
 }
 
 .topbar {
@@ -104,6 +106,7 @@ main {
     list-style-type: none;
     overflow: hidden;
     cursor: move;
+    padding: 6px;
 }
 .topbar li {
     float: left;
@@ -141,6 +144,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
