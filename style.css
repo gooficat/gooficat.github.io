@@ -87,7 +87,8 @@ main {
 }
 
 .window p {
-    padding: 8px
+    padding: 8px;
+    margin: 8px;
 }
 
 .topbar {
@@ -133,3 +134,4 @@ input {
     position:absolute;
     left: -200px;
 }
+
