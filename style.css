@@ -94,7 +94,7 @@ main {
 }
 
 .window ul {
-    margin-left: 12px;
+    padding: 12px;
 }
 
 .topbar {
@@ -140,6 +140,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
