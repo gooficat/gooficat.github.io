@@ -98,6 +98,9 @@ main {
 .window ul {
     padding-left: 12px;
 }
+.topbar ul {
+    padding: 6px;
+}
 
 .topbar {
     width: 100%;
@@ -143,6 +146,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
