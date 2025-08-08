@@ -87,16 +87,8 @@ main {
     overflow: hidden;
 }
 
-.window h2 {
-    margin: 8px;
-}
-
-.window p {
-    margin: 8px;
-}
-
-.window ul {
-    padding-left: 12px;
+.window-content {
+    margin: 10px;
 }
 .topbar ul {
     padding: 6px;
@@ -146,6 +138,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
