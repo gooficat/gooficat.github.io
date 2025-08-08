@@ -96,7 +96,6 @@ main {
 }
 
 .window ul {
-    margin: 8px;
     padding-left: 12px;
 }
 
@@ -144,6 +143,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
