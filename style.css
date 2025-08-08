@@ -96,6 +96,10 @@ main {
     margin: 8px;
 }
 
+.window ul {
+    margin-left: 12px;
+}
+
 .topbar {
     width: 100%;
     background-color: gray;
@@ -139,6 +143,7 @@ input {
     position:absolute;
     left: -200px;
 }
+
 
 
 
